@@ -1,0 +1,226 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-size: 30px;
+    font-family:'Times New Roman', Times, serif;
+    list-style-type: none;
+    text-decoration: none;
+}
+
+#cabecalho {
+    width: 100%;
+    height: 120px;
+    background-image: url(/SevenMoon/imagens/Home.png);
+    background-attachment: fixed;
+}
+
+.conteiner02 {
+    display: flex;
+}
+
+body {
+    background-image: linear-gradient(#192C4B, #283052, #483170);
+}
+
+#menu ul {
+    display: flex;;
+    justify-content: center;
+    padding-top: 48px;
+}
+
+#menu ul li {
+    padding-left: 48px;
+}
+
+#menu ul li a {
+    color: #ffffff;
+    height: 50px;
+    padding-bottom: 4px;
+}
+
+#principal h1 {
+    color: #8b3dca;
+    font-size: 190px;
+    font-family: 'Moirai One', cursive;
+    margin-left: 1em;
+}
+
+#contato h1 {
+    color: #944ca0;
+    font-size: 50px;
+    font-family: 'Moirai One', cursive;
+    margin-left: 6em;
+    margin-top: 1em;
+}
+
+#principal p {
+    margin-top: 5px;
+    margin-bottom: 50px;
+    text-align: center;
+    color: #834ca0;
+    font-size: 40px;
+    font-family: 'Caveat', cursive;
+}
+
+#lista-produtos {
+    display: flex;
+    margin: auto;
+    justify-content: space-around;
+}
+
+.produto img {
+    width: 100%;
+}
+
+.produto { 
+    padding: 20px;
+    text-align: center;
+    -webkit-box-shadow: 0px 0px 20px 5px rgba(9, 8, 8, 0.04);
+    -moz-box-shadow: 0px 0px 20px 5px rgba(0, 0, 0, 0.04);
+     box-shadow: 0px 0px 20px 5px rgba(0,0,0,0.04);
+}
+
+
+.produto a {
+    margin-top: 10px;
+}
+
+#produtos h2 {
+    font-family: 'Merriweather', serif;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 10px;
+    color: #490d39;
+}
+
+.produto h3 {
+    font-family: 'Merriweather', serif;
+    font-size: 38px;
+    margin-top: 30px;
+    color: #000000;
+}
+
+.preco {
+    font-size: 40rem;
+}
+
+.botao {
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    margin-top: 20px;
+    width: calc(100% - 30px);
+    background-color: #BA67C8;
+    color: white;
+    padding: 15px;
+}
+
+.botao:hover {
+    color: #edf1ec;
+    text-decoration: none;
+    background-color: #390f44;
+    transition: background-color 1s;
+}
+
+
+#quem-somos {
+    display: flex;
+    margin: auto;
+}
+
+#quem-somos img {
+    display: flex;
+    margin: auto;
+    width: 80%;
+    margin-top: 150px;
+    padding-bottom: 100px;
+}
+
+#texto h2 {
+    margin-bottom: 100px;
+    font-family: 'Merriweather', serif;
+    margin-top: 100px;
+    margin-bottom: 30px;
+    font-size: 50px;
+}
+
+#texto {
+    position: relative;
+}
+
+#quem-somos a, #contato input[type="submit"] {
+    font-family: 'Merriweather', serif;
+    margin-top: 20px;
+    border: 20%;
+}
+
+#rodape {
+    margin-top: 10px;
+    padding-top: 20px;
+    padding-bottom: 30px;
+    background-image: url(/SevenMoon/imagens/Fundo.png);
+    background-attachment: fixed;
+}
+
+#rodape h2 {
+    font-family: 'Merriweather', serif;
+    margin-bottom: 20px;
+    font-size: 40px;
+    color: #e8dded;
+}
+
+#rodape li, #rodape p {
+    color: #e7ddec;;
+    line-height: 1.75em;
+    display: flex;
+}
+
+#rodape a {
+    color: #F1E1F4;
+}
+
+#rodape button {
+    color: #ffffff;
+    padding-left: 2rem;
+    background-color: #bd48d1;
+}
+
+#contato form {
+    padding-top: 50px;
+    color: #100f10;
+}
+.divisoria {
+    margin-top: 100px;
+    height: 1px;
+    box-shadow: 0 0 12px rgba(204, 172, 206, 0.651);
+}
+
+@media (max-width: 600px){
+    #menu ul{
+        display: block;
+    }
+    #menu{
+        /* margin:auto; */
+        text-align: center;
+    }
+    #menu ul li{
+        /* margin:auto; */
+        text-align: center;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
